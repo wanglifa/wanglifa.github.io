@@ -60,7 +60,7 @@
 					</p>
 					<p>
 						<strong class='highlight important'>学历</strong>
-						本科
+						大专
 					</p>
 					<p>
 						<strong>痴迷新技术</strong>，喜欢承担有技术难度的工作，爱分享，<br>善于<strong>知识总结梳理</strong>。有过<strong>设计工作经验和绘画经历</strong>，能很好的处理<strong>页面的可鉴赏性</strong>
@@ -273,21 +273,21 @@
 							</ul>
 						</div>
 						<div class="cbp_tmlabel">
-							<h2 id="webpackdemo">原生js音乐播放器</h2>
-							<time>2018</time>
+							<h2 id="webpackdemo">FollowHeart 移动端音乐播放平台</h2>
+							<time>2019</time>
 							<img src="./images/zuopin5.jpg">
 							<ul>
 								<li>
-									使用原生 js 实现的一个音乐播放器，使用了百度音乐api，实现了不同专辑列表下音乐的切换，以及暂停、播放、下一曲、进度条和歌词显示的功能。
+									使用原生 jq 实现的一个移动端音乐播放器，项目实现了完善的音乐管理后台，可以在后台对歌曲/歌单进行增删改查
 								</li>
+								<li>前端页面实现了首页（热门歌单、歌曲、歌手展示），歌单页面（歌单信息及歌曲的展示），歌手页面（歌手信息及作品的展示），歌曲播放页面（可播放、暂停，支持歌词滚动、调节歌曲播放进度 ），搜索页面（根据关键字搜索平台内已有的歌手/歌曲）</li>
+								<li>此项目使用了七牛作为歌曲数据存储数据库，leanCloud 存储歌曲、歌手、歌单信息；样式借鉴了网易云音乐的 UI。主要就是从创建后台，上传内容，数据库记录相关数据，前端从云端数据库获取数据，然后渲染到页面上，整个流程都走了一遍。</li>
 								<li>
-									技术栈：html5 Audo API的使用 + 组件化思路 + ajax + 跨域 + Jquery
+									技术栈：JQuery + MVC + leanCloud + 七牛
 								</li>
-								<li>
-									在项目中为了让代码更加具有可读性，我将代码写成了mvc模式，为了模块之间可以传递参数，我用到了自定义事件，然后对这个事件进行监听，达到所需效果。最后在歌词显示中还用到了JS插件配合Animate.css。
-								</li>
-								<li>
-									因为时间原因，没有对页面刚进来时的歌曲状态和喜欢点赞这些功能进行处理。
+								<li class="intro-highlight">
+									在项目中因为用了mvc模式，对各个js都拆分成了独立的模块，为了实现模块之间的访问，自己写了一个eventHub，通过发布订阅模式来实现各模块间的数据交互，期间遇到的问题和项目实现流程都写笔记里详细的说明了：<a
+										href="https://www.jianshu.com/nb/32609307">笔记链接</a>
 								</li>
 								<li class="skill">
 									<span><b>JS</b></span>
@@ -306,12 +306,12 @@
 										</span>
 									</a>
 									<span class="link">
-										<a target="_blank" href="https://wanglifa1995.com/myFirst-player/index.html">
+										<a target="_blank" href="https://wanglifa1995.com/163-music/src/index.html#tab=page-1">
 										Try it
 										</a>
 									</span>
 									<span class="link">
-										<a target="_blank" href="https://github.com/wanglifa/myFirst-player">
+										<a target="_blank" href="https://github.com/wanglifa/163-music">
 										Github
 										</a>
 									</span>
