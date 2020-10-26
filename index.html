@@ -58,7 +58,8 @@
 						<strong class='highlight important'>工作经历</strong>
 						<strong>2015.11-2018.10.30</strong> 青岛明日教育科技股份有限公司 <strong>网页设计&前端</strong> <br>主要负责公司的网站界面设计和静态页的实现，<br>使用的技术栈主要有Bootstrap、Jquery、<br>Sass、Adaptive.js、移动端。
             <br>
-						<strong>2019.04-至今</strong> 杭州源石云科技有限公司 <strong>前端</strong> <br>主要负责公司app内的h5页面和网站后台，<br>使用的技术栈主要有vue全家桶 + webpack + sass<br>
+						<strong>2019.04-至今</strong> 杭州源石云科技有限公司 <strong>前端</strong> <br>主要负责公司app内的h5页面和支付宝小程序以及网站后台 <br>帮助公司在原生安卓和ios的基础上实现了一整套完整的商城h5页面
+            <br>（从订单详情到购物车到支付下单流程），减少了项目开发周期和加强了代码的可维护性 <br>使功能优化和新增变得更加快捷。<br>使用的技术栈主要有vue全家桶、webpack、sass、React全家桶、ts、nodejs、rollup<br>
 					</p>
 					<p>
 						<strong class='highlight important'>学历</strong>
@@ -135,181 +136,57 @@
 								</li>
 							</ul>
 						</div>
-						<div class="cbp_tmlabel">
-							<h2 id="byemess">Vue重构有赞商城移动端项目</h2>
-							<time>2018</time>
-							<img src="./images/zuopin2.png">
-							<ul>
-								<li>
-									使用vue对有赞商城移动端进行了重构，在原有的单页面应用基础上调整为多页面应用，主要实现了底部导航中的四个模块（首页、分类、购物车、我（这里面只是做了收货地址管理）），通过easymock使用mockjs模拟数据，然后通过axios来获取数据，其中在首页下拉的时候使用了mint-ui这个库，实现了当即将滚动至底部时自动加载更多数据，在收货地址管理这一模块使用了vue-router实现不同页面的跳转，以及使用了vuex实现了对删除、添加修改用户地址信息的操作，最后通过webpack打包上线。
-								</li>
-								<li>
-									技术栈： Vue + Vue Router + + Vue-­cl + Vuex + Mockjs + Axios + Mint-UI + Webpack
-								</li>
-								<li class="intro-highlight">
-									这个项目因为使用的模拟数据所以一些数据的增删改功能可能会有问题，而在这个项目的过程中遇到的主要问题就是购物车那一模块的选中店铺和选中商品的处理，当然具体实现和问题博客里都有说到：<a href="https://www.jianshu.com/p/7acb0bcce88d" target="_blank">购物车的实现</a>
-								</li>
-
-								<li class="intro-highlight">
-									另外通过这个项目让我对响应式原理有了更深入的认识，因为需要对我模拟的数据进行属性的添加，所以我不能先把我拿到的数据直接赋值给vue实例，因为这样的话不会是响应式的，所以我需要对原始数据先操作进行属性的添加然后再赋值给vue实例：<a href="https://www.jianshu.com/p/d15a7e84f298" target="_blank">深入理解响应式原理案例</a>
-									
-								</li>
-								<li class="skill">
-									<span><b>JS</b></span>
-									<a href="https://cn.vuejs.org/">
+            <div class="cbp_tmlabel">
+              <h2 id="coderpad">IReact-UI框架</h2>
+              <time>2020</time>
+              <img src="./images/zuopin1.jpg">
+              <ul>
+                <li>
+                  LiFa-UI框架是一个使用vue配合es6和sass开发，使用Karma + Mocha做单元测试，最后通过npm发布和parcel打包的UI框架，官网是使用VuePress构建，目前已经实现了Button/Tabs/Input/Grid/Layout/Popover/Cascader等常用组件，用户可以通过命令行npm install lifa-ui来安装使用它。
+                </li>
+                <li>
+                  技术栈： Vue + Es6 + Sass + Npm + Karma + Mocha + Parcel + Svg + VuePress + Vue-cli
+                </li>
+                <li class="intro-highlight">
+                  这个项目作为自己的Vue的第一个实战项目，遇到了很多问题，中间我都有把各个组件实现的过程写在博客里： <a class="intro-link" href="https://zhuanlan.zhihu.com/c_205604354">链接博客专栏</a>
+                </li>
+                <li>
+                  由于刚开始接触vue相关，尤其对于单元测试不熟，所以中间有几个单元测试没有找到办法处理，个人认为对于vue造轮子项目最大的难点也就是各种单元测试的处理，以及你要有很好的js和css基本功。
+                </li>
+                <li class="intro-highlight">
+                  在对vue文档看过之后已经自己亲自上手之后对vue的内容及项目中遇到的问题写了相关的参考笔记：
+                  <a class="intro-link" href="https://www.jianshu.com/nb/30139509" target="_blank">
+                    我的vue参考指南
+                  </a>
+                </li>
+                <li class="skill skill-icon">
+                  <span><b>JS</b></span>
+                  <a href="https://cn.vuejs.org/">
 										<span>
 											<svg class="icon" aria-hidden="true">
 												<use xlink:href="#icon-Vue"></use>
 											</svg>
 										</span>
-									</a>
-									<a href="https://www.npmjs.com.cn/">
+                  </a>
+                  <a href="https://www.css88.com/doc/sass/">
+										<span>
+											<svg class="icon" aria-hidden="true">
+												<use xlink:href="#icon-Sass"></use>
+											</svg>
+										</span>
+                  </a>
+                  <a href="https://www.npmjs.com.cn/">
 										<span>
 											<svg class="icon" aria-hidden="true">
 												<use xlink:href="#icon-434-npm"></use>
 											</svg>
 										</span>
-									</a>
-									<a href="https://www.webpackjs.com/">
-										<span>
-											<svg class="icon" aria-hidden="true">
-												<use xlink:href="#icon-webpack"></use>
-											</svg>
-										</span>
-									</a>
-									<span class="link"><a target="_blank" href="https://wanglifa1995.com/youzan/dist/index.html">Try it</a></span>
-									<span class="link"><a target="_blank" href="https://github.com/wanglifa/youzan">Github</a></span>
-								</li>
-							</ul>
-						</div>
-						<div class="cbp_tmlabel">
-							<h2 id="webpackdemo">Vue搭建cnode社区</h2>
-							<time>2018</time>
-							<img src="./images/zuopin3.png">
-							<ul>
-								<li>
-									使用cnode社区官方给的api接口，通过vue/vue-router/vue-cli对cnode社区进行重构，主要包括首页，用户列表页以及文章列表页。
-								</li>
-								<li>
-									技术栈：Vue + Axios + Jquery + Webpack + Npm + Vue-­cli + Vue-router + Es6
-								</li>
-								<li>
-										在项目过程中通过Vue-router实现路由切换功能，使用v-for实现了数据的遍历，用router-view来控制页面显示，因为其中有一个页面（Article组件）点击链接之后，页面的url只有参数发生变化，导致页面不会跳转，最后用了watch方法来监听路由，才解决这个bug。
-								</li>
-								<li class="skill">
-									<span><b>JS</b></span>
-									<a href="https://cn.vuejs.org/">
-										<span>
-											<svg class="icon" aria-hidden="true">
-												<use xlink:href="#icon-Vue"></use>
-											</svg>
-										</span>
-									</a>
-									<a href="https://www.npmjs.com.cn/">
-										<span>
-											<svg class="icon" aria-hidden="true">
-												<use xlink:href="#icon-434-npm"></use>
-											</svg>
-										</span>
-									</a>
-									<a href="https://www.webpackjs.com/">
-										<span>
-											<svg class="icon" aria-hidden="true">
-												<use xlink:href="#icon-webpack"></use>
-											</svg>
-										</span>
-									</a>
-									<span class="link">
-										<a target="_blank" href="https://wanglifa1995.com/cnode/dist/index.html#/">
-										Try it
-										</a>
-									</span>
-									<span class="link">
-										<a target="_blank" href="https://github.com/wanglifa/cnode">
-										Github
-										</a>
-									</span>
-								</li>
-							</ul>
-						</div>
-						<div class="cbp_tmlabel">
-							<h2 id="webpackdemo">微信小程序项目：立发翻译</h2>
-							<time>2018</time>
-							<img src="./images/zuopin4.png">
-							<ul>
-								<li>
-									立发翻译是一款翻译的微信小程序，可以在语言页面选择所需翻译的语种，并且翻译过后会在历史页面保留你的历史数据，而且点击历史记录的所需翻译会跳转到翻译页面翻译当前语种，方便下次查找，整个工具主要是根据小程序技术文档来写的。
-								</li>
-								<li>
-									技术栈：百度api + iconfont + JavaScript + Promise + md5加密 + WXML + WXSS + wx.request + wx.showToast + wx.switchTab
-								</li>
-								<li class="intro-highlight">
-									作为小程序的第一个项目，虽然页面结构比较简单，但还是用到了不少的api，中间遇到的问题和具体实现请看：<a href="https://www.jianshu.com/p/fd36305dbde6" target="_blank">翻译小程序的实现</a>
-								</li>
-								<li>
-									在这个项目过程中，由于没有后台，且需要一个翻译api，所以最后选择了百度翻译api，在这个过程中我看了百度翻译api使用文档，其中需要用到md5加密，然后就是在项目中，比较关键的一点是无论在语言页面还是历史页面都需要有一个缓存的数据，然后就用到了wx.setStorageSync、wx.getStorageSync这两个方法。
-								</li>
-								<li class="intro-highlight">
-									查看效果可以在微信小程序处搜索立发翻译，或者扫描小程序码
-								</li>
-								<li class="skill">
-									<span><b>JS</b></span>
-									<a href="https://developers.weixin.qq.com/miniprogram/dev/">
-										<span>
-											<svg class="icon" aria-hidden="true">
-												<use xlink:href="#icon-xiaochengxu"></use>
-											</svg>
-										</span>
-									</a>
-									<span class="link">
-										<a target="_blank" href="./images/xiaochengxu.jpg">
-										Try it
-										</a>
-									</span>
-									<span class="link">
-										<a target="_blank" href="https://github.com/wanglifa/fanyi">
-										Github
-										</a>
-									</span>
-								</li>
-							</ul>
-						</div>
-						<div class="cbp_tmlabel">
-							<h2 id="webpackdemo">html5 canvas画板</h2>
-							<time>2018</time>
-							<img src="./images/zuopin6.jpg">
-							<ul>
-								<li>
-									使用h5中的canvas，配合js实现一个集画笔颜色、画笔粗细、橡皮擦、清空、和保存功能的花板，通过touch事件使手机也可以使用。
-								</li>
-								<li>
-									技术栈：html5 Canvas + Js
-								</li>
-								<li class="intro-highlight">
-									在做canvas画板过程中遇到的问题及使用的知识点请移步到博客：<a href="https://zhuanlan.zhihu.com/p/38422042" target="_blank">canvas画布初体验</a>
-								</li>
-								<li class="skill">
-									<span><b>JS</b></span>
-									<a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5">
-										<span>
-											<svg class="icon" aria-hidden="true">
-												<use xlink:href="#icon-HTML"></use>
-											</svg>
-										</span>
-									</a>
-									<span class="link">
-										<a target="_blank" href="https://wanglifa1995.com/canvas-first/">
-										Try it
-										</a>
-									</span>
-									<span class="link">
-										<a target="_blank" href="https://github.com/wanglifa/canvas-first">
-										Github
-										</a>
-									</span>
-								</li>
-							</ul>
-						</div>
+                  </a>
+                  <span class="link"><a target="_blank" href="http://wanglifa1995.com/LiFa-UI/">Try it</a></span>
+                  <span class="link"><a target="_blank" href="https://github.com/wanglifa/LiFa-UI">Github</a></span>
+                </li>
+              </ul>
+            </div>
 						<div class="cbp_tmlabel">
 							<h2 id="webpackdemo">Bootstrap项目：24预科官网</h2>
 							<time>2017</time>
@@ -426,7 +303,7 @@
 							熟悉jQuery的<span class='highlight emphasize'>常用API</span>，能使用jQuery制作网站、轮播、Tab组件等。
 						</li>
             <li>
-              <strong>Typescript</strong> <br>
+              <strong>TypeScript</strong> <br>
               熟练使用ts<span class='highlight emphasize'>常用API</span>，如：interface，class和泛型以及类型声明文件等。
             </li>
 						<li>
@@ -454,9 +331,9 @@
 					</div>
 					<div class="tag-panel">
 						<div class="tag expert">Vue</div>
-						<div class="tag expert">jQuery</div>
-						<div class="tag expert">Git</div>
-						<div class="tag expert">Bootstrap</div>
+            <div class="tag expert">React</div>
+            <div class="tag expert">TypeScript</div>
+						<div class="tag familiar">Bootstrap</div>
 					</div>
 					<div class="tag-panel">
 						<div class="tag expert">AJAX</div>
@@ -465,6 +342,8 @@
 						<div class="tag familiar">Webpack</div>
 					</div>
 					<div class="tag-panel">
+            <div class="tag familiar">jQuery</div>
+            <div class="tag expert">Git</div>
 						<div class="tag expert">PhotoShop</div>
 					</div>
 				</div>
@@ -491,7 +370,8 @@
 					</li>
 					<li>
 						<strong style="font-size: 24px; margin-bottom: 14px;display: block">博客</strong>
-						<p>记录了我前端学习中的笔记和知识点总结：<a href="https://www.zhihu.com/people/wei-meng-xiang-da-pin-de-nan-hai-zhi/posts">博客链接</a></p>
+						<p>记录了我前端学习中的笔记和知识点总结：<br><a href="https://www.zhihu.com/people/wei-meng-xiang-da-pin-de-nan-hai-zhi/posts" style="margin-right: 14px">知乎链接</a><a
+                href="https://www.jianshu.com/u/56540ed9f123">简书链接</a></p>
 					</li>
 				</ul>
 			</div>

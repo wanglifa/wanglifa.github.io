@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="222ca718-7e52-4a15-9447-54132c795ffb" name="默认更改列表" comment="测试">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="222ca718-7e52-4a15-9447-54132c795ffb" name="默认更改列表" comment="文案修改">
+      <change afterPath="$PROJECT_DIR$/images/zuopin2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/zuopin3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/my.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/my.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +43,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -44,7 +69,7 @@
       <workItem from="1550570344684" duration="283000" />
       <workItem from="1585192196579" duration="521000" />
       <workItem from="1585212078659" duration="621000" />
-      <workItem from="1603526306768" duration="1698000" />
+      <workItem from="1603526306768" duration="5150000" />
     </task>
     <task id="LOCAL-00001" summary="去掉旧的项目">
       <created>1585192265057</created>
@@ -67,16 +92,45 @@
       <option name="project" value="LOCAL" />
       <updated>1585212238170</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="文案修改">
+      <created>1603528201491</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603528201491</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去掉旧的项目" />
     <MESSAGE value="测试" />
     <MESSAGE value="数据修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据修改" />
+    <MESSAGE value="文案修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="文案修改" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="834" y="28" key="CommitChangelistDialog2" timestamp="1603528201345">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="834" y="28" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1603528201345" />
+    <state x="311" y="416" key="Vcs.Push.Dialog.v2" timestamp="1603528210827">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="311" y="416" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1603528210827" />
   </component>
 </project>
