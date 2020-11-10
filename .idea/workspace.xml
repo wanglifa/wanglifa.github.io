@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="222ca718-7e52-4a15-9447-54132c795ffb" name="默认更改列表" comment="文案修改">
-      <change afterPath="$PROJECT_DIR$/images/zuopin2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/zuopin3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/my.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/my.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +66,11 @@
       <workItem from="1550570344684" duration="283000" />
       <workItem from="1585192196579" duration="521000" />
       <workItem from="1585212078659" duration="621000" />
-      <workItem from="1603526306768" duration="5150000" />
+      <workItem from="1603526306768" duration="5183000" />
+      <workItem from="1603697569907" duration="516000" />
+      <workItem from="1604560730109" duration="1329000" />
+      <workItem from="1604896609665" duration="1237000" />
+      <workItem from="1604988295584" duration="2639000" />
     </task>
     <task id="LOCAL-00001" summary="去掉旧的项目">
       <created>1585192265057</created>
@@ -99,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603528201491</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="文案修改">
+      <created>1603678198948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603678198948</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +123,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去掉旧的项目" />
